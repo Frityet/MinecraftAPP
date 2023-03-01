@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug MCApp",
+            "program": "${workspaceFolder:SwiftWindow}/.build/debug/MCApp",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftWindow}",
+            "preLaunchTask": "swift: Build Debug MCApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release MCApp",
+            "program": "${workspaceFolder:SwiftWindow}/.build/release/MCApp",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftWindow}",
+            "preLaunchTask": "swift: Build Release MCApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug MCApp",
+            "program": "${workspaceFolder:SwiftMCApp}/.build/debug/MCApp",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftMCApp}",
+            "preLaunchTask": "swift: Build Debug MCApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release MCApp",
+            "program": "${workspaceFolder:SwiftMCApp}/.build/release/MCApp",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftMCApp}",
+            "preLaunchTask": "swift: Build Release MCApp"
+        }
+    ]
+}
